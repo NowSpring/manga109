@@ -422,7 +422,7 @@ def get_ComicInstances(PATHS): # PAHTS : 'Annotations/*.xml'
 
 if __name__ == "__main__":
     
-    dirpath = "./datas/raw_tests/annotations"
+    dirpath = "./datas/tests/raw/annotations"
     files = glob.glob(os.path.join(dirpath, "*.xml"))
     
     comics = get_ComicInstances(files)

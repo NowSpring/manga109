@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw
 
-from side_frames import *
+from modules.basic_research.side_frames import *
     
 
 def check_Segment(xFile, xSideFrames):

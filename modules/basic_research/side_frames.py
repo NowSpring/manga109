@@ -6,7 +6,7 @@
 import json
 
 from main import *
-from range import get_ObjectRange
+from modules.basic_research.range import get_ObjectRange
 
 class SideFrame(Core):
     

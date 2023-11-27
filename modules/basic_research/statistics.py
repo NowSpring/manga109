@@ -1,5 +1,5 @@
 
-from side_frames import *
+from modules.basic_research.side_frames import *
 
 
 

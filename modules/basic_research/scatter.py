@@ -1,5 +1,5 @@
-from side_frames import *
-from range import get_ObjectRange
+from modules.basic_research.side_frames import *
+from modules.basic_research.range import get_ObjectRange
 
 if __name__ == "__main__":
     

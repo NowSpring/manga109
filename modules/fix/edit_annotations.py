@@ -1,5 +1,5 @@
 import json
-from sub import *
+from modules.fix.sub import *
 
 
 def shift_xCoord(xObject, xShift):
@@ -161,7 +161,7 @@ def edit_xml(xComicInstance):
                 
     indent(book)
     tree = et.ElementTree(book)
-    tree.write('./datas/edited/annotations/' + xFile + ".xml", xml_declaration=True, encoding='utf-8')
+    tree.write('./datas/raw/tests/annotations/' + xFile + ".xml", xml_declaration=True, encoding='utf-8')
 
     
     
