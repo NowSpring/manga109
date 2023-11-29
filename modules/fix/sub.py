@@ -244,6 +244,10 @@ def sort_Frames(bFrames):
     return NewBands, FirstCoreFrames
 
 
+def sort_Lines(xLines):
+    
+    pass
+
 def get_ComicInstances(PATHS): # PAHTS : 'Annotations/*.xml'
     
     ComicInstances = [] 
